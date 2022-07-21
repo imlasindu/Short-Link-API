@@ -2,7 +2,7 @@ from flask import Flask, redirect, render_template, request, jsonify, json
 from shortener import short
 
 
-app = Flask(__name__, template_folder="public")
+app = Flask(__name__)
 
 
 
